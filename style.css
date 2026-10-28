@@ -1,3 +1,15 @@
+ .tema-escuro {
+    --cor-fundo: black;
+    --cor-texto: white;
+    --cor-principal: rgb(0, 174, 255);
+    --cor-superficie: black;
+    --cor-card: black;
+    
+ }
+ 
+ 
+ 
+ 
 body {
     background-color: #34DAA0;
     color: #0A3A1C;
@@ -96,4 +108,14 @@ footer {
 button {
     background-color: #000000;
 
+}
+
+.btn-tema {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
 }
